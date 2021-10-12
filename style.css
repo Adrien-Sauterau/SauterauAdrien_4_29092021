@@ -1033,6 +1033,11 @@ h4 {
         display: flex;
         justify-content: space-around;
     }
+
+    .bloc-lg-map {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1045,11 +1050,16 @@ h4 {
         display: flex;
         justify-content: space-around;
     }
+
+    .bloc-lg-map {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .bloc-lg-map {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .bloc-lg-map {
